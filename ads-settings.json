@@ -1,0 +1,19 @@
+{
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": "all",
+	"editor.suggestSelection": "first",
+	"files.trimTrailingWhitespace": true,
+	"mssql.format.datatypeCasing": "uppercase",
+	"mssql.format.keywordCasing": "uppercase",
+	"queryEditor.messages.showBatchTime": true,
+	"window.autoDetectColorScheme": true,
+	"workbench.colorTheme": "Default Dark Azure Data Studio",
+	"workbench.enablePreviewFeatures": true,
+	"workbench.startupEditor": "welcomePage",
+	// Extension settings
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+	// Databbse connections
+}
