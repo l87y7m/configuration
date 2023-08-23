@@ -1,7 +1,10 @@
 [core]
 	excludesFile = ~/.gitignore
+	editor = code --wait
 [init]
 	defaultBranch = main
+[push]
+	autoSetupRemote = true
 [mergetool]
 	keepBackup = false
 [user]
