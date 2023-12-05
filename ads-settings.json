@@ -8,12 +8,16 @@
 	"files.trimTrailingWhitespace": true,
 	"mssql.format.datatypeCasing": "uppercase",
 	"mssql.format.keywordCasing": "uppercase",
+	"mssql.tableDesigner.preloadDatabaseModel": true,
 	"queryEditor.messages.showBatchTime": true,
 	"window.autoDetectColorScheme": true,
 	"workbench.colorTheme": "Default Dark Azure Data Studio",
+	"workbench.editorAssociations": {
+		"*.{sqlplan}": "workbench.editor.executionplan"
+	},
 	"workbench.enablePreviewFeatures": true,
 	"workbench.startupEditor": "welcomePage",
 	// Extension settings
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
-	// Databbse connections
+	// Database connections
 }
