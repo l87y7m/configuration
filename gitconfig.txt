@@ -1,6 +1,6 @@
 [core]
-	excludesFile = ~/.gitignore
 	editor = code --wait
+	excludesFile = ~/.gitignore
 [init]
 	defaultBranch = main
 [push]
