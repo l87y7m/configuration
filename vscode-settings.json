@@ -3,14 +3,16 @@
 	"editor.detectIndentation": false,
 	"editor.formatOnSave": true,
 	"editor.insertSpaces": false,
+	"editor.minimap.enabled": false,
 	"editor.renderWhitespace": "all",
 	"editor.suggestSelection": "first",
 	"files.trimTrailingWhitespace": true,
 	"git.autofetch": true,
+	"git.terminalGitEditor": true,
 	"terminal.integrated.enablePersistentSessions": false,
 	"window.autoDetectColorScheme": true,
 	// "workbench.colorTheme": "Default Dark Modern",
-	"workbench.startupEditor": "welcomePage",
+	"workbench.startupEditor": "welcomePageInEmptyWorkbench",
 	"[dockercompose]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
@@ -29,6 +31,9 @@
 	"[markdown]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"[sql]": {
+		"editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+	},
 	"[typescript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
@@ -36,25 +41,31 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	// Extension settings
+	"docker.containers.label": "ContainerName",
+	"docker.containers.description": ["Image", "Status"],
+	"docker.containers.sortBy": "Label",
 	// // Docs Authoring Pack Begin // //
 	"docs-build.userType": "Public Contributor",
+	"jest.runMode": "on-save",
 	"markdownlint.config": {
 		"MD010": { "code_blocks": false },
+		"MD013": {
+			"line_length": 100
+		},
 		"MD028": false,
 		"MD025": {
 			"front_matter_title": ""
 		}
 	},
-	"markdownlint.customRules": [
-		"{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
-	],
 	// // Docs Authoring Pack End // //
+	"dotnet.defaultSolution": "disable",
 	"mssql.format.datatypeCasing": "uppercase",
 	"mssql.format.keywordCasing": "uppercase",
 	"mssql.persistQueryResultTabs": true,
 	"mssql.showBatchTime": true,
 	"prettier.useTabs": true,
 	"redhat.telemetry.enabled": true,
+	"sql-formatter.uppercase": true,
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"xml.symbols.maxItemsComputed": 10000,
 	// SQL Server connections

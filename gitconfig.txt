@@ -1,5 +1,4 @@
 [core]
-	editor = code --wait
 	excludesFile = ~/.gitignore
 [init]
 	defaultBranch = main
@@ -16,10 +15,10 @@
 	required = true
 	smudge = git-lfs smudge -- %f
 [diff]
-    tool = bc
+	tool = bc
 # [difftool "bc"] # Windows
 # 	path = C:/Program Files/Beyond Compare 4/BComp.exe
 [merge]
-    tool = bc
+	tool = bc
 # [mergetool "bc"] # Windows
 # 	path = C:/Program Files/Beyond Compare 4/BComp.exe
